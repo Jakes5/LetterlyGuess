@@ -86,6 +86,7 @@ stopBtn.addEventListener("click", () => {
     document.getElementById("timer").innerText=all;
     outcome.textContent = "";
     startMsg.classList.remove("hide");
+    RandomAlpNo();
 });
 
 window.addEventListener("keydown", (e) =>{ 

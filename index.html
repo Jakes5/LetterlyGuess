@@ -7,27 +7,30 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Get the random letter</h1>
-    <div class="start-message">
-        <p>A random number or letter will generate each second. Your job is to press the letters and numbers on your keyboard to try and catch the letters or numbers</p>
-        <p>Are you ready?</p>
+    <h1>Guess the random letter</h1>
+    <div class="main">
+        <div class="start-message">
+            <p>A random number or letter will generate each second. Your job is to press random letters and numbers on your keyboard in order to catch the random, hidden, generated letter or number</p>
+            <p>Are you ready?</p>
+        </div>
+    
+        <p id="timer">
+            00:00:00
+        </p>
+        <!-- Method 1: You can specify function attributes directly on your HTML elements -->
+        <!-- <button onclick="alert('Hello World')">Click Me</button> -->
+    
+        <!-- Method 2: You can set properties in the form of on<eventType>, such as onclick or onmousedown, on the DOM nodes in your JavaScript. -->
+        <!-- <button id="btn">Click Me</button> -->
+    
+        <!-- Method 3: You can attach event listeners to the DOM nodes in your JavaScript-->
+         <div class="display-outcome"></div>
+         <div class="start">
+            <button id="btn1">Start Game</button>
+            <button id="btn2">Reset Game</button>
+         </div>
     </div>
 
-    <p id="timer">
-        00:00:00
-    </p>
-    <!-- Method 1: You can specify function attributes directly on your HTML elements -->
-    <!-- <button onclick="alert('Hello World')">Click Me</button> -->
-
-    <!-- Method 2: You can set properties in the form of on<eventType>, such as onclick or onmousedown, on the DOM nodes in your JavaScript. -->
-    <!-- <button id="btn">Click Me</button> -->
-
-    <!-- Method 3: You can attach event listeners to the DOM nodes in your JavaScript-->
-     <div class="display-outcome"></div>
-     <div class="start">
-        <button id="btn1">Start Game</button>
-        <button id="btn2">Reset Game</button>
-     </div>
 
 
     <script src="./script.js"></script>
