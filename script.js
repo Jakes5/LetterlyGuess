@@ -95,7 +95,7 @@ if(e.code === randomDigit){
     isgoing=false;
     clearInterval(clear);
     console.log(clear);
-    outcome.setAttribute("style", "width: 100%");
+    // outcome.setAttribute("style", "width: 100%");
     outcome.textContent = `Way to go, you won on "${randomDigit}"`;
     clearInterval(go);
     // hr=0, min=0, sec=0, milli=0, all="0:00:00:00";

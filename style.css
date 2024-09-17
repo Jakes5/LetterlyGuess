@@ -15,7 +15,8 @@ h1{
 .start-message{
     margin: 0 auto;
     text-align: center;
-    width: 50%
+    max-width: 50%;
+    min-width: 240px
 }
 
 #timer {
@@ -27,8 +28,9 @@ h1{
     text-align: center;
     margin: 0 auto;
     font-size: 40px;
+    max-width: 50%;
+    min-width: 240px;
     /* height: 2rem; */
-    width: 5rem;
     background-color: #00ffff;
 }
 
