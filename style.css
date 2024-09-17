@@ -1,3 +1,7 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1{
     margin: 0 auto;
     text-align: center;
@@ -8,6 +12,17 @@ h1{
     text-align: center;
 }
 
+.start-message{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%
+}
+
+#timer {
+    font-size:200%;
+    text-align: center;
+}
+
 .display-outcome{
     text-align: center;
     margin: 0 auto;
@@ -15,4 +30,8 @@ h1{
     /* height: 2rem; */
     width: 5rem;
     background-color: #00ffff;
+}
+
+.hide{
+    display: none;
 }
