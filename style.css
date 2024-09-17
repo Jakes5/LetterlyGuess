@@ -1,1 +1,18 @@
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
 
+.start{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.display-outcome{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    /* height: 2rem; */
+    width: 5rem;
+    background-color: #00ffff;
+}
